@@ -1,6 +1,7 @@
 
 import './App.css';
 import Card from './NewComp/card/Card';
+import Footer from './NewComp/footer/Footer';
 import Navbar from './NewComp/Navigation/Navbar';
 import CardSlider from './NewComp/slider/CardSlider';
 import Slider from './NewComp/slider/Slider';
@@ -29,7 +30,8 @@ function App() {
   <CardSlider />
 
   <Card />
-
+  
+  <Footer />
    </div>
    {/* <Header /> */}
    {/* <div className="bg-slate-500">
